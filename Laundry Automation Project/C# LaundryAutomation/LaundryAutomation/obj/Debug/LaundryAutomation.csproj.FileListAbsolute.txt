@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\bin\Debug\LaundryAutomation.exe.config
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\bin\Debug\LaundryAutomation.exe
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\bin\Debug\LaundryAutomation.pdb
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.csprojAssemblyReference.cache
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.Home.resources
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.Properties.Resources.resources
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.csproj.GenerateResource.cache
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.exe
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.pdb
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.CreateAccount.resources
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.Login.resources
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.LogHistoryForm.resources
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.InventoryForm.resources
+C:\Users\Emmanuel\source\repos\LaundryAutomation\LaundryAutomation\obj\Debug\LaundryAutomation.ReportForm.resources
