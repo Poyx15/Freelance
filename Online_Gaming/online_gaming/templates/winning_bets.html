@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for num in count %}
+
+     <article class="media content-section">
+     <div class="media-body">
+        <legend class="border-bottom">TABLE {{ table_name[num] }}: {{ winning_numbers[num] }}</legend>
+        <div class="media-body">
+            {% for bet in bets[num] %}
+                <article class="media content-section">
+                   <div class="media-body">
+                       <h4 class="mr-3">{{ bet.player.username }} --- {{ bet.ticket_number }}</h4>
+                       <strong class="text-muted">{{ bet.table }}-{{ bet.number }}  </strong>
+                       <strong class="text-muted ml-2">{{ bet.player.email }}</strong>
+                       <small class="text-muted mr-3 ml-4">{{ bet.date_posted.strftime("%m/%d/%Y") }}</small>
+                  </div>
+                </article>
+            {% endfor %}
+        </div>
+     </div>
+     </article>
+    {% endfor %}
+{% endblock content %}

@@ -1,0 +1,25 @@
+
+python
+
+from online_gaming.models import db
+from online_gaming.models import User, Post, Bet
+
+
+
+ticket = 'Insert Ticket Number Here'
+ticket = 'fc38d0bf82'
+bet1 = Bet.query.filter_by(ticket_number=ticket)
+for bet in bet1:
+	bet.paid = True
+
+db.session.commit()
+
+
+# Delete Bet Model after every draw
+#for all records
+db.session.query(Post).delete()
+db.session.commit()
+
+#for specific value
+db.session.query(Model).filter(Model.id==123).delete()
+db.session.commit()

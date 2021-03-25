@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+
+                {% for field in form.bets %}
+                <legend class="border-bottom">Place Bet</legend>
+                    {% for x in field %}
+                        <div class="form-group m-3">
+                            {% print(x.label) %}
+                            {% print(x) %}
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+
+            </fieldset>
+            <div class="form-group">
+
+                {{ form.submit(class="btn btn-outline-info") }}
+
+            </div>
+        </form>
+    </div>
+{% endblock content %}
